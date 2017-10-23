@@ -1,0 +1,13 @@
+.erreur{
+    background-color: INDIANRED;
+    color: white;
+    padding: 5px;
+    margin: 2px;
+    width: 50%;
+}
+
+.validation{
+    background-color: DARKSEAGREEN;
+    color: white;
+    padding: 5px;
+}
