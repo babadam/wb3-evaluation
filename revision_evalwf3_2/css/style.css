@@ -1,0 +1,21 @@
+body{
+    padding-top: 70px;
+}
+.rouge{
+    min-height: 70px;
+    background-color: darkred;
+    color: #fff;
+}
+.bleu{
+    min-height: 70px;
+    background-color: navy;
+    color: #fff;
+}
+.vert{
+    min-height: 30px;
+    background-color: green;
+}
+.jaune{
+    min-height: 30px;
+    background-color: yellow;
+}
