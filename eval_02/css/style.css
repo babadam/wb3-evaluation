@@ -1,0 +1,136 @@
+/*Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*********** DEBUT NAV ***********/
+nav{
+    background-color: #061339;
+    
+}
+nav h1{
+    color: #fff;
+    font-size: 130%;
+    padding: 0.5% 0;
+    font-family: 'Merienda', cursive;
+    margin-left: 21%;
+}
+/*********** FIN NAV ***********/
+
+/*********** DEBUT HEADER ***********/
+header{
+    background-color: #B9CDFF;
+    background: url(../img/background.jpg);
+}
+header h2{
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    color: #fff;
+    font-size: 180%;
+    padding: 2%;
+    text-shadow: 1px 2px 3px #666;
+}
+/*********** FIN HEADER ***********/
+
+/*********** DEBUT SECTION CHOIX ***********/
+#choix{
+    background-color: #E9E9E5;
+}
+#choix h3{
+    color: #2F4073;
+    font-size: 120%;
+    font-family: 'Merienda', cursive;
+    padding: 2%
+}
+form{
+    width: 50%;
+    float: left;
+    border: 1px solid gray;
+}
+.carousel{
+    width: 60%;
+    float: left;
+    margin-left: 9%;
+}
+.clear{
+    clear: both;
+}
+.error{
+    background-color: indianred;
+    color: #fff;
+    padding: 10px;
+    font-size: 17px;
+}
+.valid{
+    background-color: #5cb85c;
+    color: #fff;
+    padding: 2vh;
+    font-size: 5vh;
+    text-align: center;
+}
+/*********** FIN SECTION CHOIX ***********/
+
+/*********** DEBUT SECTION PRESENTATION  ***********/
+#presentation{
+    background-color: #DADADA;
+}
+#presentation h3{
+    color: #2F4073;
+    font-size: 180%;
+    font-family: 'Merienda', cursive;
+    padding: 2%
+}
+#presentation .texte{
+    display: inline-block;
+}
+.texte{
+    width: 50%;
+}
+.texte p{
+    margin: 3%;
+}
+#presentation .image{
+    display: inline-block;
+    width: 45%;
+}
+.image img{
+    width: 60%;
+    background-color: #7885A5;
+    margin-left: 15%;
+}
+.image img:hover{
+    background-color: #061339;
+}
+/*********** FIN SECTION PRESENTATION ***********/
+
+/*********** DEBUT FOOTER ***********/
+footer{
+    background-color: #061339;
+}
+footer p{
+    color: #fff;
+    text-align: right;
+    padding: 0.3%;
+    margin-right: 1%;
+}
+/*********** FIN FOOTER ***********/
+.has-danger{
+    border: 1px solid red;
+}
